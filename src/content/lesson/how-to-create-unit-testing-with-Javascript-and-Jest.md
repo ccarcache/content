@@ -45,6 +45,15 @@ Note: Unit tests don't care about the content of the `sum` function, it only car
 
 ![unit testing examples](../../assets/images/unit-test1.png)
 
+## The arrow functons.
+The "arrow functions" do not create their own context when executed. Unlike the "function expression" or the "function declaration" that creates its own context.
+
+The "arrow functions" are anonymous.
+
+The arguments object is not in the context of the function.
+
+If when defining the function we do not use the symbol of the curly braces. The function will return as a result of the function the result of the execution of the instruction that we have indicated.
+
 
 ## Benefits of using Unit Testing:
 
